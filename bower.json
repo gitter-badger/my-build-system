@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "homepage": "https://github.com/moolbits/my-build-system",
+  "authors": [
+    "Nathan Bloom <nabloomer@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.8",
+    "backbone": "~1.2.3",
+    "react": "~0.14.3"
+  }
+}
