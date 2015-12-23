@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/moolbits/my-build-system/issues"
   },
-  "homepage": "https://github.com/moolbits/my-build-system#readme"
+  "homepage": "https://github.com/moolbits/my-build-system#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
