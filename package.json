@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Experimenting with gulp and different file structures, in NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moolbits/my-build-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moolbits/my-build-system/issues"
+  },
+  "homepage": "https://github.com/moolbits/my-build-system#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
