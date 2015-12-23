@@ -5,7 +5,12 @@ var gulp = require('gulp'),
 
 // Scripts Task
 
-gulp.task('scripts', function(){
-	console.log('Trill it works!');
+gulp.task('scripts', function() {
+	gulp.src('app/js/**/*.js')
+	.pipe(uglify())
+	.pipe(gulp.dest('app/js'));
 });
 
+// Default Task
+
+gulp.task('default', ['scripts']);
